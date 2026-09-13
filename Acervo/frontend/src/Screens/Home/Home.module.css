@@ -1,0 +1,228 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+.home-screen-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.home-screen-navbar {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #808080;
+  padding: 12px;
+}
+
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.navbar-image {
+  width: 237px;
+  height: 63px;
+}
+
+.cards-products-grid {
+  display: grid;
+  width: 100%;
+  column-gap: 56px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 48px;
+}
+
+.products-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+  height: 450px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  border-color: #808080;
+  background-color: #ffffff;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products-cards:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-title {
+  color: #000000;
+  padding-top: 6px;
+}
+
+.categorias-content {
+  display: flex;
+  flex-direction: row;
+  width: 93%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.categorias-barras {
+  width: 200px;
+  height: 24px;
+  background-color: #fa9200;
+}
+
+.grafico-cards {
+  display: flex;
+  flex-direction: column;
+  width: 273px;
+  height: 231px;
+  border-radius: 50%;
+  background-color: #fa9200;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 148px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px 15px 10px 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.modal-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.mt {
+  margin-left: 5px;
+}
+
+/* Remove o sublinhado do link */
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #000000; /* Define a cor padrão do link */
+  transition: color 0.3s ease; /* Adiciona uma transição suave ao alterar a cor */
+}
+
+/* Altera a cor ao passar o mouse */
+a:hover {
+  color: #ff5733; /* Nova cor ao passar o mouse */
+  text-decoration: underline; /* (Opcional) Adiciona o sublinhado ao passar o mouse */
+}
+
+.link {
+  font-size: 20px;
+}
+
+.modal-icons {
+  width: 36px;
+  height: 36px;
+}
+
+button {
+  width: 72px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .cards-products-grid {
+    display: grid;
+    width: 100%;
+    column-gap: 56px;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 48px;
+  }
+
+  .products-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    height: 450px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: #808080;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 36px;
+  }
+}
