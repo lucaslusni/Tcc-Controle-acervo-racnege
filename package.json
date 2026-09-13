@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "jwt-decode": "^4.0.0"
+  }
+}

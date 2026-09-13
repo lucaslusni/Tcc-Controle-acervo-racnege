@@ -1,0 +1,12 @@
+/* Remove o sublinhado do link */
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #000000 !important; /* Define a cor padrão do link */
+  transition: color 0.3s ease; /* Adiciona uma transição suave ao alterar a cor */
+}
+
+/* Altera a cor ao passar o mouse */
+a:hover {
+  color: #ff5733; /* Nova cor ao passar o mouse */
+  text-decoration: underline; /* (Opcional) Adiciona o sublinhado ao passar o mouse */
+}

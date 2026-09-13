@@ -1,0 +1,9 @@
+.auth-container-update {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 130vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb6114;
+}

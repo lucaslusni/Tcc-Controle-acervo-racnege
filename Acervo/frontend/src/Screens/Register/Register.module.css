@@ -1,0 +1,76 @@
+.auth-container-register {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 130vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb6114;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px 15px 10px 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.modal-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.mt {
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none; 
+  color: #007bff;
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #ff5733; 
+  text-decoration: underline; 
+}
+
+.link {
+  font-size: 20px;
+}
+
+.modal-icons {
+  width: 36px;
+  height: 36px;
+}
+
+button {
+  width: 72px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}

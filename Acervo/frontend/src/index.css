@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/fontes/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../public/fontes/NotoSans-Regular.ttf");
+  color: #010400;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 14px;
+  color: #7c7c7c;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+label {
+  width: 100%;
+  font-weight: 700;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt {
+  margin-top: 16px;
+}
+
+.mt-larger {
+  margin-top: 32px;
+}
+
+.mt-large {
+  margin-top: 24px;
+}
+
+.mt-small {
+  margin-top: 12px;
+}
+
+.mt-smaller {
+  margin-top: 6px;
+}

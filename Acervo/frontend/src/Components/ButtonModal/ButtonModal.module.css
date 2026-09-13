@@ -1,0 +1,19 @@
+.button-modal {
+  display: flex;
+  flex-direction: column;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: #fa9200;
+  background-color: #fa9200;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-modal-content {
+  width: 12px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 3px;
+}

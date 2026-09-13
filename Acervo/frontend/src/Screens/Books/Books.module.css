@@ -1,0 +1,198 @@
+/* Styles the main container of the table */
+.ag-theme-quartz {
+  width: 100%;
+  height: auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Table header */
+.ag-header {
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Header cells */
+.ag-header-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Alternate rows for better appearance */
+.ag-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.ag-row:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Cell borders */
+.ag-cell,
+.ag-header-cell {
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+}
+
+/* Text style in cells */
+.ag-cell {
+  padding: 5px;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Ensures the table occupies 100% of the width */
+.ag-grid {
+  width: 100% !important;
+}
+
+/* Hover effect for table items */
+.ag-row-hover {
+  background-color: #e3f2fd !important;
+  cursor: pointer;
+}
+
+/* Adds spacing to buttons and icons within cells */
+.ag-cell img,
+.ag-cell button {
+  margin: 0 5px;
+}
+
+/* Size of the "Rent" button */
+.rent-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.rent-button:hover {
+  background-color: #45a049;
+}
+
+/* Horizontal scroll */
+.ag-body-horizontal-scroll-viewport {
+  height: 10px !important;
+}
+
+.books-screen-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.books-screen-navbar {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #808080;
+  padding: 12px;
+}
+
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.navbar-image {
+  width: 237px;
+  height: 63px;
+}
+
+/* Overlay for modal background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: 1000;
+}
+
+/* Modal content styling */
+.modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px 15px 10px 20px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.modal-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.mt {
+  margin-left: 5px;
+}
+
+/* Removes the underline from links */
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+/* Changes link color on hover */
+a:hover {
+  color: #ff5733;
+  text-decoration: underline;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.modal-icons {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  width: 72px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
